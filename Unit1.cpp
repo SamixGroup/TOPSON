@@ -45,6 +45,7 @@ void __fastcall TForm1::BackButtonClick(TObject *Sender) {
 	BgPanel->Position->X = 112;
 	BgPanel->Position->Y = 152;
 	GameBox->Visible = false;
+    GameInfo->Visible = false;
 	Info->Visible = false;
 }
 
